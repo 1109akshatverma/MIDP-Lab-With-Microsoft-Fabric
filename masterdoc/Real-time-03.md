@@ -1,6 +1,6 @@
 # Exercise 3: Explore Machine Learning and Business Intelligence scenarios on the Lakehouse. <a name="data-science-and-analytics-on-the-Lakehouse"></a>
 
-### Estimated Duration : 45 minutes
+### Estimated Duration : 85 minutes
 
 ## Architecture Diagram
 
