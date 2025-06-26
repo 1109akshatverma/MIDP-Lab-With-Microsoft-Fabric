@@ -54,7 +54,7 @@ Once the environment is provisioned, a virtual machine (JumpVM) and lab guide wi
  
 ## Accessing Your Lab Environment
  
-Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
+Once you're ready to dive in, your virtual machine and **Guide** will be right at your fingertips within your web browser.
  
    ![01](../media/01/01.png?raw=true)
 
