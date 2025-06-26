@@ -50,7 +50,7 @@ In this hands-on lab, you will work through the architecture flow illustrated in
 
 # Getting Started with the Lab
  
-Once the environment is provisioned, a virtual machine (JumpVM) and lab guide will get loaded in your browser. Use this virtual machine throughout the workshop to perform the lab. You can see the number on the bottom of the Lab guide to switch to different exercises of the lab guide.
+Once the environment is provisioned, a virtual machine (JumpVM) and lab guide will be loaded in your browser. Use this virtual machine throughout the workshop to perform the lab. You can see the number on the bottom of the Lab guide to switch to different exercises in the lab guide.
  
 ## Accessing Your Lab Environment
  
@@ -92,7 +92,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
  
    ![Manage Your Virtual Machine](../media/01/gext2.png?raw=true)
 
-3. If you have not extended the duration prior to when the lab is about to end, a pop-up will appear, giving you the option to extend. Click **OK** to proceed.
+3. If you have not extended the duration before when the lab is about to end, a pop-up will appear, giving you the option to extend. Click **OK** to proceed.
  
 ## Let's Get Started with Azure Portal
  
@@ -116,7 +116,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
    
      ![](../media/01/asklater.png?raw=true)
 
-1. First-time users are often prompted to Stay Signed In, if you see any such pop-up, click on **No**.
+1. First-time users are often prompted to Stay Signed In. If you see any such pop-up, click on **No**.
 
 1. If a **Welcome to Microsoft Azure** popup window appears, click **Cancel** to skip the tour.
     
