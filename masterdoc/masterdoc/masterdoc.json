@@ -4,19 +4,19 @@
         "Language": "English",
         "Files": [
             {
-                "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/MIDP-Lab-With-Microsoft-Fabric/refs/heads/dev/masterdoc/masterdoc/getting-started-MSSPL.md",
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AI-powered-Analytics-with-Microsoft-Fabric/refs/heads/main/Day-1/getting-started.md",
                 "Order": 1
             },
             {
-                "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/MIDP-Lab-With-Microsoft-Fabric/dev/masterdoc/08.md",
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AI-powered-Analytics-with-Microsoft-Fabric/refs/heads/main/Day-1/01.md",
                 "Order": 2
             },
             {
-                "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/MIDP-Lab-With-Microsoft-Fabric/dev/masterdoc/09.md",
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AI-powered-Analytics-with-Microsoft-Fabric/refs/heads/main/Day-1/02.md",
                 "Order": 3
             },
             {
-                "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/MIDP-Lab-With-Microsoft-Fabric/dev/masterdoc/10.md",
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AI-powered-Analytics-with-Microsoft-Fabric/refs/heads/main/Day-1/03.md",
                 "Order": 4
             }
         ]
