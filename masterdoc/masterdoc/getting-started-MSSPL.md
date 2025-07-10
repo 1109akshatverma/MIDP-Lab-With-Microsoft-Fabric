@@ -112,17 +112,17 @@ Feel free to **Start**, **Stop**, or **Restart** your virtual machine as needed 
    
      ![](../../media/01/mfa3.png)
 
-     >**Note:** If a new prompt will appears **Let's keep your account secure**, follow the steps.
+     >**Note:** If a prompt appears titled **Let's keep your account secure**, follow the on-screen steps to proceed.
 
-     >1. Click on **Next**.
+     >1. Click **Next** to continue.
    
       >![](../../media/01/mfa1.png?raw=true)
 
-      >2. In **Microsoft Authenticator** page, click **Skip setup**.
+      >2. On the **Microsoft Authenticator** page, click **Skip setup**.
    
       >![](../../media/01/mfa2.png?raw=true)
      
-      >3. And in **Stay signed in**, select **No**.
+      >3. On the **Stay signed in** prompt, select **No**.
    
       >![](../../media/01/mfa3.png?raw=true)
 
