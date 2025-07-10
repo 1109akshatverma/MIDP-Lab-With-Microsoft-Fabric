@@ -1,6 +1,6 @@
 # Get data into Fabric Lakehouse
 
-##### **Overall Estimated Duration: 4 Hours**
+### Overall Estimated Duration: 4 Hours
 
 ## Overview
 
@@ -74,83 +74,58 @@ For convenience, you can open the lab guide in a separate window by selecting th
  
 ## Managing Your Virtual Machine
  
-Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
+Feel free to **Start**, **Stop**, or **Restart** your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
  
 ![Manage Your Virtual Machine](../../media/Managing-your-virtual-machine.png?raw=true)
 
-## **Lab Guide Zoom In/Zoom Out**
+## Lab Guide Zoom In/Zoom Out
  
 1. To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
 
    ![Manage Your Virtual Machine](../../media/Zoom-in-and-zoom-out.png)
 
-## Let's Get Started with Azure Portal
+## Let's Get Started with Power BI Portal
  
-1. On your virtual machine, click on the Azure Portal icon as shown below:
+1. On your virtual machine, open the **Microsoft Edge**.
  
-    ![Launch Azure Portal](../../media/Get-started-with-Azure-Portal.png)
+    ![](../../media/microsoftedge.png)
  
-2. You'll see the **Sign into Microsoft Azure** tab. Here, enter your credentials:
- 
+2.  In a new tab, navigate to the **Power BI** portal by copying and pasting the following URL into the address bar:
+
+      ```
+      https://app.powerbi.com/
+      ```
+
+3. On the **Enter your email, we'll check if you need to create a new account** tab, you will see the login screen, in that enter the following email/username, and click on **Submit**.
+
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
  
-      ![](../../media/01/image7.png?raw=true)
+      ![](../../media/08/powerbi1.png)
  
-3. Next, provide your password:
+4. Next, provide your password:
  
    - **Password:** <inject key="AzureAdUserPassword"></inject>
  
-      ![](../../media/01/image8.png?raw=true)
+      ![](../../media/08/powerbi2.png)
 
-1. If you see the pop-up **Action Required**, click **Ask Later**.
+5. First-time users are often prompted to Stay Signed In. If you see any such pop-up, click on **No**.
    
-     ![](../../media/01/asklater.png?raw=true)
+     ![](../../media/01/mfa3.png)
 
-1. Or if you see the pop-up **Let's keep your account secure**, click **Next (1)**.
-   
-     ![](../../media/01/mfa1.png?raw=true)
+     >**Note:** If a new prompt will appears **Let's keep your account secure**, follow the steps.
 
-1. In **Microsoft Authenticator** page, click **Skip setup (1)**.
+     >1. Click on **Next**.
    
-     ![](../../media/01/mfa2.png?raw=true)
+      >![](../../media/01/mfa1.png?raw=true)
+
+      >2. In **Microsoft Authenticator** page, click **Skip setup**.
+   
+      >![](../../media/01/mfa2.png?raw=true)
      
-1. And in **Stay signed in**, select **No (1)**.
+      >3. And in **Stay signed in**, select **No**.
    
-     ![](../../media/01/mfa3.png?raw=true)
+      >![](../../media/01/mfa3.png?raw=true)
 
-## Steps to Proceed with MFA Setup if "Ask Later" Option is Not Visible
-
-1. At the **"More information required"** prompt, select **Next**.
-
-1. On the **"Keep your account secure"** page, select **Next** twice.
-
-1. **Note:** If you don’t have the Microsoft Authenticator app installed on your mobile device:
-
-   - Open **Google Play Store** (Android) or **App Store** (iOS).
-   - Search for **Microsoft Authenticator** and tap **Install**.
-   - Open the **Microsoft Authenticator** app, select **Add account**, then choose **Work or school account**.
-
-1. A **QR code** will be displayed on your computer screen.
-
-1. In the Authenticator app, select **Scan a QR code** and scan the code displayed on your screen.
-
-1. After scanning, click **Next** to proceed.
-
-1. On your phone, enter the number shown on your computer screen in the Authenticator app and select **Next**.
-       
-1. If prompted to stay signed in, you can click "No."
- 
-1. If a **Welcome to Microsoft Azure** pop-up window appears, simply click "Maybe Later" to skip the tour.
-
-1. First-time users are often prompted to Stay Signed In. If you see any such pop-up, click on **No**.
-
-1. If a **Welcome to Microsoft Azure** popup window appears, click **Cancel** to skip the tour.
-    
-     ![](../../media/01/gettingstarted-new-2.png?raw=true)
-
-1. Click **Next** from the bottom right corner to embark on your Lab journey!
- 
-   ![Start Your Azure Journey](../../media/next-09.png)
 
 ## Support Contact
 
@@ -160,5 +135,9 @@ Learner Support Contacts:
 
 - Email Support: cloudlabs-support@spektrasystems.com
 - Live Chat Support: https://cloudlabs.ai/labs-support
+
+Now, click on **Next** from the lower right corner to move on to the next page.
+
+![Start Your Azure Journey](../../media/next-09.png)
 
 ## Now you're all set to explore the powerful world of technology. Feel free to reach out if you have any questions along the way. Enjoy your workshop!
