@@ -126,6 +126,26 @@ Feel free to **Start**, **Stop**, or **Restart** your virtual machine as needed 
    
       >![](../../media/01/mfa3.png?raw=true)
 
+1. Select **Account manager (1)**, and click on **Free trial (2)**.
+
+   ![Account-manager-start](../../media/08/midp-new-license-01.png)  
+
+   >**Note:** If a new prompt will appear asking you to **Upgrade to a free Microsoft Fabric trial**, click on **Start trial**.
+
+      ![Start-trial](../../media/08/08.png)
+
+1. A new prompt will appear asking you to **Activate your 60-day Free Fabric trial capacity**, leave the **Trial capacity region (1)** to default, and click on **Activate (2)**.
+
+   ![Got-it](../../media/Activate-trial.png)
+
+1. Once your trial capacity is ready, you receive a confirmation message. Select **Stay on current page** to begin working in Fabric.
+
+   ![Got-it](../../media/fabricworkspace-exercise1-fabric.png) 
+
+1. Now, open **Account manager (1)** again, and verify **Trial status (2)**.
+
+   ![Verify-trial-status](../../media/08/10.png)
+
 
 ## Support Contact
 
