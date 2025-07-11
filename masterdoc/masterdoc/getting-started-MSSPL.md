@@ -12,11 +12,11 @@ You will utilize **Microsoft Fabric**, a unified data analytics platform that in
 
 Understand how to set up a Fabric workspace, build a lakehouse, ingest and transform data, and create reports. By the end of this lab, you will be able to:
 
-- **Create a Fabric workspace**: Gain experience in creating and setting up a Fabric workspace, including understanding prerequisites and executing the workspace creation process.
+- **Create a Fabric workspace:** Gain experience in creating and setting up a Fabric workspace, including understanding prerequisites and executing the workspace creation process.
 
-- **Build a lakehouse**: Gain experience in building a lakehouse by activating SharePoint Online, creating the lakehouse, ingesting sample data, and building a report.
+- **Build a lakehouse:** Gain experience in building a lakehouse by activating SharePoint Online, creating the lakehouse, ingesting sample data, and building a report.
 
-- **Ingest data into the lakehouse**: Learn to ingest data into the lakehouse, focusing on efficient and effective data integration methods. 
+- **Ingest data into the lakehouse:** Learn to ingest data into the lakehouse, focusing on efficient and effective data integration methods. 
 
 ## Pre-requisites
 
@@ -32,19 +32,19 @@ In this hands-on lab, you will work through the architecture flow illustrated in
 
 ## Explanation of Components
 
-- **Microsoft Entra ID**: Microsoft Entra ID is a cloud-based identity and access management service that enables secure access to both external and internal resources. It allows users to seamlessly sign in to a wide range of applications, including Microsoft 365, the Azure portal, and other SaaS apps, as well as custom applications developed for an organization. By managing user identities and controlling access, Microsoft Entra ID enhances security and simplifies the user experience across various platforms and devices.
+- **Microsoft Entra ID:** Microsoft Entra ID is a cloud-based identity and access management service that enables secure access to both external and internal resources. It allows users to seamlessly sign in to a wide range of applications, including Microsoft 365, the Azure portal, and other SaaS apps, as well as custom applications developed for an organization. By managing user identities and controlling access, Microsoft Entra ID enhances security and simplifies the user experience across various platforms and devices.
 
-- **Microsoft Fabric**: Microsoft Fabric is a comprehensive analytics and data platform tailored for enterprises seeking an integrated solution. It covers all aspects of data management, including movement, processing, ingestion, transformation, real-time event routing, and reporting. The platform provides a full range of services, such as Data Engineering, Data Factory, Data Science, Real-Time Analytics, Data Warehousing, and Databases.
+- **Microsoft Fabric:** Microsoft Fabric is a comprehensive analytics and data platform tailored for enterprises seeking an integrated solution. It covers all aspects of data management, including movement, processing, ingestion, transformation, real-time event routing, and reporting. The platform provides a full range of services, such as Data Engineering, Data Factory, Data Science, Real-Time Analytics, Data Warehousing, and Databases.
 
-- **Microsoft Fabric Lakehouse**: Microsoft Fabric Lakehouse is a comprehensive data architecture platform designed for storing, managing, and analyzing both structured and unstructured data in a unified environment. It offers flexibility and scalability, enabling organizations to handle extensive data volumes with a range of tools and frameworks for processing and analysis. By integrating with various data management and analytics tools, it provides a holistic solution for data engineering and analytics.
+- **Microsoft Fabric Lakehouse:** Microsoft Fabric Lakehouse is a comprehensive data architecture platform designed for storing, managing, and analyzing both structured and unstructured data in a unified environment. It offers flexibility and scalability, enabling organizations to handle extensive data volumes with a range of tools and frameworks for processing and analysis. By integrating with various data management and analytics tools, it provides a holistic solution for data engineering and analytics.
 
-- **SharePoint Online**: SharePoint Online is a cloud-based service from Microsoft that facilitates collaboration, document management, and content sharing within organizations. It enables users to create, store, and manage web-based documents and data, offering tools for team sites, document libraries, and lists.
+- **SharePoint Online:** SharePoint Online is a cloud-based service from Microsoft that facilitates collaboration, document management, and content sharing within organizations. It enables users to create, store, and manage web-based documents and data, offering tools for team sites, document libraries, and lists.
 
-- **Fabric Lakehouse**: Microsoft Fabric Lakehouse is a data architecture platform designed to store, manage, and analyze both structured and unstructured data in one unified location. It offers flexibility and scalability, enabling organizations to handle extensive data volumes through a range of tools and frameworks for processing and analysis. The platform integrates seamlessly with other data management and analytics tools, delivering a comprehensive solution for data engineering and analytics.
+- **Fabric Lakehouse:** Microsoft Fabric Lakehouse is a data architecture platform designed to store, manage, and analyze both structured and unstructured data in one unified location. It offers flexibility and scalability, enabling organizations to handle extensive data volumes through a range of tools and frameworks for processing and analysis. The platform integrates seamlessly with other data management and analytics tools, delivering a comprehensive solution for data engineering and analytics.
 
-- **Power BI**: Power BI is a suite of software services, applications, and connectors that collaborate to transform disparate data sources into cohesive, visually engaging, and interactive insights. Whether your data comes from an Excel spreadsheet or a mix of cloud-based and on-premises data warehouses, Power BI enables you to seamlessly connect to these sources, uncover and visualize key information, and share insights with anyone you choose.
+- **Power BI:** Power BI is a suite of software services, applications, and connectors that collaborate to transform disparate data sources into cohesive, visually engaging, and interactive insights. Whether your data comes from an Excel spreadsheet or a mix of cloud-based and on-premises data warehouses, Power BI enables you to seamlessly connect to these sources, uncover and visualize key information, and share insights with anyone you choose.
 
-- **SQL**: SQL(Structured Query Language) is a standardized programming language used to manage and manipulate relational databases. It allows users to perform operations such as querying data, inserting, updating, and deleting records, as well as defining and altering database structures. SQL is essential for efficiently handling and analyzing structured data within relational databases.
+- **SQL:** SQL(Structured Query Language) is a standardized programming language used to manage and manipulate relational databases. It allows users to perform operations such as querying data, inserting, updating, and deleting records, as well as defining and altering database structures. SQL is essential for efficiently handling and analyzing structured data within relational databases.
 
 # Getting Started with the Lab
  
@@ -56,7 +56,7 @@ Once you're ready to dive in, your virtual machine and **Guide** will be right a
  
    ![01](../../media/Lab-Guide-first-screenshot.png)
 
-### Virtual Machine & Lab Guide
+## Virtual Machine & Lab Guide
  
 Your virtual machine is your workhorse throughout the workshop. The lab guide is your roadmap to success.
  
@@ -80,7 +80,7 @@ Feel free to **Start**, **Stop**, or **Restart** your virtual machine as needed 
 
 ## Lab Guide Zoom In/Zoom Out
  
-1. To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
+To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
 
    ![Manage Your Virtual Machine](../../media/Zoom-in-and-zoom-out.png)
 
@@ -114,23 +114,23 @@ Feel free to **Start**, **Stop**, or **Restart** your virtual machine as needed 
 
      >**Note:** If a prompt appears titled **Let's keep your account secure**, follow the on-screen steps to proceed.
 
-     >1. Click **Next** to continue.
+1. Click **Next** to continue.
    
-      >![](../../media/01/mfa1.png?raw=true)
+   ![](../../media/01/mfa1.png?raw=true)
 
-      >2. On the **Microsoft Authenticator** page, click **Skip setup**.
+2. On the **Microsoft Authenticator** page, click **Skip setup** at the bottom right to bypass Microsoft Authenticator configuration.
    
-      >![](../../media/01/mfa2.png?raw=true)
+   ![](../../media/01/mfa2.png?raw=true)
      
-      >3. On the **Stay signed in** prompt, select **No**.
+3. If you see the pop-up **Stay Signed in?**, select **No**.
    
-      >![](../../media/01/mfa3.png?raw=true)
+   ![](../../media/01/mfa3.png?raw=true)
 
-1. Select **Account manager (1)**, and click on **Free trial (2)**.
+1. Click the **Profile icon (1)** (top right) and then click **Free trial** to request a 60-day Microsoft Fabric trial.
 
    ![Account-manager-start](../../media/08/midp-new-license-01.png)  
 
-   >**Note:** If a new prompt will appear asking you to **Upgrade to a free Microsoft Fabric trial**, click on **Start trial**.
+   >**Note:** If a new prompt will appear asking you to **Upgrade to a free Microsoft Fabric trial**, click **Start trial** to activate your free Microsoft Fabric trial and unlock all premium features.
 
       ![Start-trial](../../media/08/08.png)
 
@@ -145,7 +145,6 @@ Feel free to **Start**, **Stop**, or **Restart** your virtual machine as needed 
 1. Now, open **Account manager (1)** again, and verify **Trial status (2)**.
 
    ![Verify-trial-status](../../media/08/10.png)
-
 
 ## Support Contact
 
